@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/shop.css" />
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <!--scroll to top-->
+  <div class="scroll-top" id="scroll-top">
+    <i class="fa-solid fa-angle-up"></i>
+  </div>
+  <!--end scroll to top-->
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg p-lg-3">
+    <div class="container">
+      <a class="nav-image" href="#"><img src="img/logo.png" class="img-fluid" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mt-sm-3">
+          <li class="nav-item">
+            <a class="nav-link " href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  active-link" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--end  navbar-->
+  <!--header-->
+  <!--start header-->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <h4> Products</h4>
+        <h2><a href="index.html">Home</a> / shop</h2>
+      </div>
+    </div>
+  </header>
+  <!--end header-->
+  <!--section products-->
+  <section class="products-section">
+    <div class="container">
+      <div class="products-filter">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="filter-right d-flex align-items-center justify-content-between justify-content-md-start">
+              <div class="filter">
+                <i class="fa-solid fa-filter"></i><span class="ms-1">Filter</span>
+              </div>
+              <div class="sorted ms-lg-5 ms-md-3">
+                <div class="dropdown d-flex align-items-center">
+                  <p class="d-md-none d-lg-block">Sort by:</p>
+                  <span class="dropdown-toggle ms-3" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Alphabetically, A-Z
+                  </span>
+                  <ul class="dropdown-menu sorted-list" aria-labelledby="dropdownMenuButton1">
+                    <li>
+                      <a class="dropdown-item" href="#">Featured</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">price, low to high</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">price, low to high</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">date, new to old</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">date, old to new</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-none d-md-block">
+            <div class="filter-left d-flex align-items-center justify-content-end">
+              <p class="items-total">Items 1 to 12 of 32 total</p>
+              <div class="icons d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                  class="bi bi-grid-3x3-gap-fill ms-3 grid-icon" viewBox="0 0 16 16">
+                  <path
+                    d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z" />
+                </svg>
+                <i class="fa-solid fa-bars ms-3"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 mt-5">
+            <div class="product-card">
+              <div class="product-card-img">
+                <img src="img/6_370x_crop_center.jpg" alt="" />
+                <span>Hot</span>
+              </div>
+              <div class="product-card-details">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <h6 class="product-name">Fresh Detox Blueberries</h6>
+                <p class="product-price">$10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-5">
+            <div class="product-card">
+              <div class="product-card-img">
+                <img src="img/9_a370bf86-de12-44f2-bf08-8a316a0feb8d_370x_crop_center.jpg" alt="" />
+                <span>Hot</span>
+              </div>
+              <div class="product-card-details">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <h6 class="product-name">Vegetable Smoothie</h6>
+                <p class="product-price">$10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-5">
+            <div class="product-card">
+              <div class="product-card-img">
+                <img src="img/11_984c7b6f-e168-4d96-b6f7-d2b42b894c0c_370x_crop_center.jpg" alt="" />
+                <span>Hot</span>
+              </div>
+              <div class="product-card-details">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <h6 class="product-name">Vegetable Smoothie</h6>
+                <p class="product-price">$10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-5">
+            <div class="product-card">
+              <div class="product-card-img">
+                <img src="img/5_25ce81d0-0243-420e-85ac-a8c1b7164479_370x_crop_center.jpg" alt="" />
+                <span>Hot</span>
+              </div>
+              <div class="product-card-details">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <h6 class="product-name">Fresh Detox Blueberries</h6>
+                <p class="product-price">$10.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 mt-5">
+            <div class="product-card">
+              <div class="product-card-img">
+                <img src="img/6_370x_crop_center.jpg" alt="" />
+                <span>Hot</span>
+              </div>
+              <div class="product-card-details">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <h6 class="product-name">Fresh Detox Blueberries</h6>
+                <p class="product-price">$10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-5">
+            <div class="product-card">
+              <div class="product-card-img">
+                <img src="img/9_a370bf86-de12-44f2-bf08-8a316a0feb8d_370x_crop_center.jpg" alt="" />
+                <span>Hot</span>
+              </div>
+              <div class="product-card-details">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <h6 class="product-name">Vegetable Smoothie</h6>
+                <p class="product-price">$10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-5">
+            <div class="product-card">
+              <div class="product-card-img">
+                <img src="img/11_984c7b6f-e168-4d96-b6f7-d2b42b894c0c_370x_crop_center.jpg" alt="" />
+                <span>Hot</span>
+              </div>
+              <div class="product-card-details">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <h6 class="product-name">Vegetable Smoothie</h6>
+                <p class="product-price">$10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-5">
+            <div class="product-card">
+              <div class="product-card-img">
+                <img src="img/5_25ce81d0-0243-420e-85ac-a8c1b7164479_370x_crop_center.jpg" alt="" />
+                <span>Hot</span>
+              </div>
+              <div class="product-card-details">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <h6 class="product-name">Fresh Detox Blueberries</h6>
+                <p class="product-price">$10.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 mt-5">
+            <div class="product-card">
+              <div class="product-card-img">
+                <img src="img/6_370x_crop_center.jpg" alt="" />
+                <span>Hot</span>
+              </div>
+              <div class="product-card-details">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <h6 class="product-name">Fresh Detox Blueberries</h6>
+                <p class="product-price">$10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-5">
+            <div class="product-card">
+              <div class="product-card-img">
+                <img src="img/9_a370bf86-de12-44f2-bf08-8a316a0feb8d_370x_crop_center.jpg" alt="" />
+                <span>Hot</span>
+              </div>
+              <div class="product-card-details">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <h6 class="product-name">Vegetable Smoothie</h6>
+                <p class="product-price">$10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-5">
+            <div class="product-card">
+              <div class="product-card-img">
+                <img src="img/11_984c7b6f-e168-4d96-b6f7-d2b42b894c0c_370x_crop_center.jpg" alt="" />
+                <span>Hot</span>
+              </div>
+              <div class="product-card-details">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <h6 class="product-name">Vegetable Smoothie</h6>
+                <p class="product-price">$10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-5">
+            <div class="product-card">
+              <div class="product-card-img">
+                <img src="img/5_25ce81d0-0243-420e-85ac-a8c1b7164479_370x_crop_center.jpg" alt="" />
+                <span>Hot</span>
+              </div>
+              <div class="product-card-details">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <h6 class="product-name">Fresh Detox Blueberries</h6>
+                <p class="product-price">$10.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--pagination-->
+      <nav class="pagination-nav">
+        <ul class="pagination">
+          <li class="page-item page-disabled">
+            <a class="page-link"><i class="fa-solid fa-arrow-left"></i></a>
+          </li>
+          <li class="page-item active">
+            <a class="page-link" href="#">1</a>
+          </li>
+          <li class="page-item" aria-current="page">
+            <a class="page-link" href="#">2</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#"><i class="fa-solid fa-arrow-right"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+  <!--Subscribe -->
+  <div class="section subscribe">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-12 col-md-12 col-lg-6 text-sm-center text-sm-start mb-sm-4 mb-lg-0">
+          <div class="subscribe-text">
+            <h3 class="  ">Subscribe Newsletter</h3>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 mt-md-4 col-lg-6 d-flex align-items-center justify-content-between ">
+          <input type="email" placeholder="Enter Your E-mail" class="input-subscribe" />
+          <a class="main-button subscribe-button">subscribe</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end Subscribe -->
+  <!--footer-->
+  <footer class="footer ">
+    <div class="container">
+      <div class="footer-content">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="contact">
+              <h6>Contact Our Farm</h6>
+              <p>
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                condimentum nibh.
+              </p>
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item footer-item">
+                  <i class="fa-solid fa-location-dot icon-footer"></i><span class="nav-list">PO Box 16122 Collins Street
+                    West</span>
+                </li>
+                <li class="nav-item footer-item">
+                  <i class="fa-solid fa-phone icon-footer"></i><span class="nav-list">+(1100) 1989 1994 0901</span>
+                </li>
+                <li class="nav-item footer-item">
+                  <i class="fa-solid fa-paper-plane icon-footer"></i><span
+                    class="nav-list">creativewithjoy@gmail.com</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="contact">
+              <h6>Follow Me</h6>
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item Follow-item">
+                  <i class="fa-brands fa-facebook-f icon-follow"></i><span
+                    class="nav-list follow-item-name">facebook</span>
+                </li>
+                <li class="nav-item Follow-item">
+                  <i class="fa-brands fa-twitter icon-follow"></i><span class="nav-list follow-item-name">twitter</span>
+                </li>
+                <li class="nav-item Follow-item">
+                  <i class="fa-brands fa-instagram icon-follow"></i><span
+                    class="nav-list follow-item-name">instagram</span>
+                </li>
+                <li class="nav-item Follow-item">
+                  <i class="fa-brands fa-google icon-follow"></i><span class="nav-list follow-item-name">google</span>
+                </li>
+                <li class="nav-item Follow-item">
+                  <i class="fa-brands fa-youtube icon-follow"></i><span class="nav-list follow-item-name">Youtube</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="contact">
+              <h6>Userful Links</h6>
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item userful">
+                  <span class="nav-list follow-item-name footer-item">About Us </span>
+                </li>
+                <li class="nav-item userful">
+                  <span class="nav-list follow-item-name footer-item">Portfolio </span>
+                </li>
+                <li class="nav-item userful">
+                  <span class="nav-list follow-item-name footer-item">Terms Of Service
+                  </span>
+                </li>
+                <li class="nav-item userful">
+                  <span class="nav-list follow-item-name footer-item">Privacy Policy
+                  </span>
+                </li>
+                <li class="nav-item userful">
+                  <span class="nav-list follow-item-name footer-item">Contact Us </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mt-md-4 mt-lg-0">
+            <div class="oars text-center">
+              <div class="oars-img">
+                <img src="img/logo (1).png" alt="" />
+              </div>
+              <div class="oars-title">
+                <p class="oars-title-body">
+                  Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                  condimentum nibh, ut fermentum massa justo sit amet risus.
+                  Curabitur blandit tempusporttitor nullam quis.
+                  <div class="footer-image-bottom">
+                    <img src="img/png5.png" alt="" />
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-end">
+      <h6>
+        Copyright © 2022 <span class="them-name">Naruto</span> All Rights
+        Reserved
+      </h6>
+    </div>
+  </footer>
+  <!--end footer-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
